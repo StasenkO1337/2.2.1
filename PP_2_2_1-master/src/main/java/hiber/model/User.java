@@ -76,11 +76,11 @@ public class User {
 
     @Override
     public String toString() {
-        return  car +
-                "; id => " + id +
-                "; firstName => " + firstName  +
-                "; lastName => " + lastName  +
-                "; email => " + email ;
+        return  "User {" +
+                "firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", email = '" + email + '\'' +
+                '}';
 
     }
 }
